@@ -5,15 +5,132 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Ahmet Ilten</title>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 <style type="text/css">
+	p {
+		margin: 0;
+		padding: 0;
+	}
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
 	body {
+		font-family: 'JetBrains Mono', monospace;
+		font-size: 85%;
 		max-width: 800px;
-		margin: 0 auto;
-		padding: 10px;
+		margin: 20px auto;
+		padding: 0;
+		color: #f9f5d7;
+		background: #282828;
+	}
+	body a{
+		color: #fb4934;
+	}
+	body a:visited {
+		color: #dd95b4;
+	}
+	h3 {
+		margin-bottom: 5px;
+	}
+	#links {
+		display: inline;
+  		list-style-type: none;
+		padding-top: 10px;
+	}
+	#link {
+		display: inline;
+		padding-right: 20px;
+	}
+	#eos-screenshot {
+    	width: 400px;
+	    height: auto;
+	    margin-left: 10px;
+	    float: right;
+	}
+	#gof-video, #tt-video, #ss-video {
+		width: 400px;
+		height: 215px;
+	    margin-left: 10px;
+	    float: right;
+	}
+	#proj::after {
+		padding-bottom: 10px;
+		content: " ";
+   		display: block; 
+   		height: 0; 
+   		clear: both;
 	}
 </style>
 <body>
-	<h3> Ahmet's Personal Portfolio </h3>
-	<p> Hi, I'm Ahmet, I like making video games. </p>
+	<header>
+		<h2> Ahmet's Personal Website</h2>
+		<ul id="links">
+			<li id="link"><a = href="./ahmet-ilten-resume.pdf">Resume</a></li>
+			<li id="link"><a = href="https://www.linkedin.com/in/iltenahmet/">LinkedIn</a></li>
+			<li id="link"><a = href="https://www.youtube.com/@iltenahmet">Youtube</a></li>
+			<li id="link"><a = href="https://www.github.com/iltenahmet">Github</a></li>
+		</ul>
+	</header>
+	<p> Hi, I'm Ahmet, a senior computer science student at NYU. I like making and playing games. Here, you can find about various projects I've worked on. </p>
+	<hr>
+	<div id="proj">
+		<h3> Echoes Of Steel </h3>
+		<img src="echoes-of-steel.png" alt="Screenshot from Echoes Of Steel" id="eos-screenshot">
+		<p>
+			A third person shooter with both melee and ranged enemies. This is my most ambitious project yet, soon coming to Steam. You can follow the development on my <a = href="https://www.youtube.com/@iltenahmet">Youtube channel</a>. So far, the game includes:
+		</p>
+		<ul>
+			<li> Animation-supported movement, shooting & reload mechanics. </li>
+			<li> Dynamic gameplay variation depending on weapon selection. </li>
+			<li> Both melee and shooter enemy AI. </li>
+			<li> Inventory management system that enables item swapping, discarding and acquiring different weapons. </li>
+			<li> Multiple levels. </li>
+		</ul>
+		<p>
+			I'm using Unreal Engine 5.1. The most of the core logic is in C+, with some parts extended in Blueprints.
+		</p>
+	</div>
+
+	<div id="proj">
+		<h3> Graphics Programming Projects </h3>
+		<p> Various graphics programming projects I've done as part of the Computer Graphics course at NYU, all works on the web. </p>
+		<ul>		
+			<li> <a = href="./graphics/3d-balls/index.html"> Ray Tracing: 3D Ball Bounce Simulator </a> </li>
+			<li> <a = href="./graphics/shader-art/index.html"> Simple Shader Art </a> </li>
+		</ul>
+	</div>
+
+	<div id="proj">
+		<h3> Basic God of War Axe Mechanics </h3>
+		<iframe id="gof-video" src="https://www.youtube.com/embed/MI8VVgAylco?si=zglJja7AE_nh5ihg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<p> 
+			A Unity project where I implemented some of the basic functionality of Kratos' axe. You can check the source code on <a href="https://www.github.com/iltenahmet/god-of-war-unity">Github</a>. The project includes:
+		</p>
+		<ul>
+		    <li> Axe Throw: Can control the trajectory of the axe by adjusting the angle and power of the throw. The axe will stick to the target upon impact. </li>
+	 		<li> Axe Recall: Can call back the axe after it has been thrown, even when it's still in motion. The axe returns in a curve, and deals damage if it hits an enemy on the way back. </li>
+	 		<li> Simple melee attack. </li>
+		</ul>
+	</div>
+
+	<div id="proj">
+		<h3> Toon Tanks </h3>	
+		<iframe id="tt-video" width="560" height="315" src="https://www.youtube.com/embed/XfUmgTWDKio?si=bZxZKdFcJ_Xi22Qm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<p> 
+			An Unreal Engine project where you shoot turrets with your tank before they shoot you. You can check the source code on <a href="https://www.github.com/iltenahmet/toon-tanks-ue5">Github</a>. 
+		</p> 
+	</div>
+
+	<div id="proj">
+		<h3> Simple Shooter </h3>	
+		<iframe id="ss-video" width="560" height="315" src="https://www.youtube.com/embed/rwNie1wJvFk?si=5E0qg91TaHqflxCm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<p> 
+			An Unreal Engine project with simple shooting mechanics, you can check the project on <a href="https://iltenahmet.itch.io/simple-shooter">itch.io</a>. The project includes:
+		</p> 
+	</div>
+
 </body>
 </html>
