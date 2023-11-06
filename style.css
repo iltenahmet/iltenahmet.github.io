@@ -1,0 +1,81 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 85%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #f9f5d7;
+    background: #282828;
+}
+body a{
+    color: #fabd2f;
+}
+body a:visited {
+    color: #dd95b4;
+}
+h1, h2, h3 {
+    color: #fb4934;
+}
+hr {
+    color: #665c54;
+}
+h3 {
+    margin-bottom: 5px;
+}
+#links {
+    display: inline;
+    list-style-type: none;
+    padding-top: 10px;
+}
+#link {
+    display: inline;
+    padding-right: 20px;
+}
+#eos-screenshot {
+    width: 350px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    float: right;
+}
+#shader-screenshot {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    float: right;
+}
+#ht-screenshot {
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    float: right;
+}
+#gof-video, #tt-video, #ss-video {
+    width: 350px;
+    height: 188px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    float: right;
+}
+#profile-image {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+#proj::after {
+    padding-bottom: 10px;
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+}

@@ -3,94 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Ahmet Ilten</title>
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
-<style type="text/css">
-	p {
-		margin: 0;
-		padding: 0;
-	}
-	header {
-		display: flex;
-		justify-content: space-between;
-	}
-	body {
-		font-family: 'JetBrains Mono', monospace;
-		font-size: 85%;
-		max-width: 800px;
-		margin: 20px auto;
-		padding-right: 20px;
-		padding-left: 20px;
-		color: #f9f5d7;
-		background: #282828;
-	}
-	body a{
-		color: #fabd2f;
-	}
-	body a:visited {
-		color: #dd95b4;
-	}
-	h1, h2, h3 {
-		color: #fb4934;
-	}
-	hr {
-		color: #665c54;
-	}
-	h3 {
-		margin-bottom: 5px;
-	}
-	#links {
-		display: inline;
-  		list-style-type: none;
-		padding-top: 10px;
-	}
-	#link {
-		display: inline;
-		padding-right: 20px;
-	}
-	#eos-screenshot {
-    	width: 350px;
-	    height: auto;
-	    margin-left: 10px;
-	    margin-bottom: 5px;
-	    float: right;
-	}
-	#shader-screenshot {
-    	width: 200px;
-	    height: auto;
-	    margin-left: 10px;
-	    float: right;
-	}
-	#ht-screenshot {
-    	width: 200px;
-	    height: auto;
-	    margin-left: 10px;
-	    float: right;
-	}
-	#gof-video, #tt-video, #ss-video {
-		width: 350px;
-		height: 188px;
-	    margin-left: 10px;
-	    margin-bottom: 5px;
-	    float: right;
-	}
-	#profile-image {
-		width: 200px;
-		height: auto;
-		margin-right: 10px;
-		float: left;
-	}
-	#proj::after {
-		padding-bottom: 10px;
-		content: " ";
-   		display: block; 
-   		height: 0; 
-   		clear: both;
-	}
-</style>
 <body>
 	<header>
 		<h2> Ahmet's Personal Website</h2>
@@ -105,7 +23,7 @@
 	<div id=proj>
 		<img src="profile.jpg" id="profile-image">
 		<p> 
-			Hi, I'm Ahmet, a senior computer science student at NYU. I like making and playing games. Here, you can find about various projects I've worked on. 
+			Hi, I'm Ahmet, a senior computer science student at NYU. I like making and playing games. Here, you can find about various projects I've worked on.
 		</p>
 	</div>
 	<hr>
@@ -144,7 +62,7 @@
 		<h3> Basic God of War Axe Mechanics </h3>
 		<iframe id="gof-video" src="https://www.youtube.com/embed/MI8VVgAylco?si=zglJja7AE_nh5ihg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		<p> 
-			A Unity project where I implemented some of the basic functionality of Kratos' axe. You can check the source code on <a href="https://www.github.com/iltenahmet/god-of-war-unity">Github</a>. The project includes:
+			A Unity project where I implemented some of the basic functionality of Kratos' axe. You can check the <a href="https://www.github.com/iltenahmet/god-of-war-unity">source code</a> on Github. The project includes:
 		</p>
 		<ul>
 		    <li> Axe Throw: Can control the trajectory of the axe by adjusting the angle and power of the throw. The axe will stick to the target upon impact. </li>
@@ -157,8 +75,8 @@
 	<div id="proj">
 		<h3> Toon Tanks </h3>	
 		<iframe id="tt-video" width="560" height="315" src="https://www.youtube.com/embed/XfUmgTWDKio?si=bZxZKdFcJ_Xi22Qm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		<p> 
-			An Unreal Engine project where you shoot turrets with your tank before they shoot you. You can check the source code on <a href="https://www.github.com/iltenahmet/toon-tanks-ue5">Github</a>. 
+		<p>
+			An Unreal Engine project where you shoot turrets with your tank before they shoot you. You can check the <a href="https://www.github.com/iltenahmet/toon-tanks-ue5">source code</a> on Github. 
 		</p> 
 	</div>
 	<hr>
@@ -176,7 +94,7 @@
 		<h3> Gamified Habit Tracker</h3>
 		<img src="habit-tracker.png" alt="Screenshot from Habit Tracker" id="ht-screenshot">
 		<p>
-			A web-based habit tracker that allows users to create accounts, set habit frequencies, earn XP and level up based on habit adherence. Habit colors also adapt to reflect adherence levels. You can check the source code on my <a = href="https://github.com/iltenahmet/gamified-habit-tracker/">Github</a>. And you can check the app <a = href="https://gamified-habit-tracker.vercel.app/">here</a>. I've used:
+			A web-based habit tracker that allows users to create accounts, set habit frequencies, earn XP and level up based on habit adherence. Habit colors also adapt to reflect adherence levels. You can check the <a = href="https://github.com/iltenahmet/gamified-habit-tracker/">source code</a> on my Github. And you can check the app <a = href="https://gamified-habit-tracker.vercel.app/">here</a>. I've used:
 		</p>	
 		<ul>
 			<li>Javascript on the backend</li>
