@@ -1,4 +1,4 @@
 +++
-redirect_to = "/portfolio"
+redirect_to = "/about-me"
 +++
 
