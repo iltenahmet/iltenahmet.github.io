@@ -5,7 +5,7 @@ weight = 3
 +++
 This is a Unity project where I have recreated the axe throw and recall mechanics of [God of War](https://store.steampowered.com/app/1593500/God_of_War/) which were a staple of the protagonist Kratos' moveset.
 - [Source Code](https://github.com/iltenahmet/god-of-war-unity/)
-- [Video Demonstarion](https://youtu.be/MI8VVgAylco?si=JKDdB3x2nkrz7lnN&t=72)
+- [Video Demonstration](https://youtu.be/MI8VVgAylco?si=JKDdB3x2nkrz7lnN&t=72)
 
 <!-- more -->
 
