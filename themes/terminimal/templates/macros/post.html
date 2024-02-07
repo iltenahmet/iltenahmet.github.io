@@ -26,10 +26,18 @@
 {% macro date(page) %}
     <span class="post-date">
         {%- if page.date %}
-            {{ page.date | date(format="%Y-%m-%d") }}
+            {{ page.date | date(format="%B %d, %Y") }}
         {% endif -%}
     </span>
 {% endmacro post_date %}
+
+{% macro description(page) %}
+     <span class="post-description">
+        {%- if page.description%}
+            {{ page.description | safe }}
+        {% endif -%}
+    </span>
+{% endmacro post_description %}
 
 
 {% macro earlier_later(page) %}
@@ -67,7 +75,9 @@
     <div class="post-meta-inline">
         {{ post_macros::date(page=page) }}
     </div>
-
+    <div class="post-meta-inline">
+        {{ post_macros::description(page=page)}}
+    </div>
     {{ post_macros::tags(page=page) }}
 {% endmacro header %}
 
@@ -82,7 +92,6 @@
             <a href="{{ page.permalink | safe }}">
                 <span class="post-date">{{ page.date }}</span>
                 :: <span class="post-list-title">{{ page.title }}</span></a>
-            {{ post_macros::tags(page=page, short=true) }}
         </li>
     {% endfor -%}
     </ul>

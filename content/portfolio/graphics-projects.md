@@ -1,5 +1,6 @@
 +++
 title = "Graphics Programming Projects"
+description = "September 2023 - December 2023"
 weight = 2
 +++
 

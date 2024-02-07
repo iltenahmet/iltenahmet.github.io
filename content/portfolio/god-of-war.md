@@ -1,5 +1,6 @@
 +++
 title = "Implementing God Of War Axe Mechanics"
+description = "January 2023 - February 2023"
 weight = 3
 +++
 This is a Unity project where I have recreated the axe throw and recall mechanics of [God of War](https://store.steampowered.com/app/1593500/God_of_War/) which were a staple of the protagonist Kratos' moveset.

@@ -1,5 +1,6 @@
 +++
 title = "Echoes Of Steel"
+description = "May 2023 - January 2024" 
 template = "page.html"
 weight = 1 
 +++
