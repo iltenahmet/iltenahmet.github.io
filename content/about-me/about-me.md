@@ -3,8 +3,9 @@ title = "About Me"
 template = "page.html"
 +++
 
-Hi, I'm Ahmet, a recent NYU graduate with a computer science degree. I like making and playing games, programming, and football (soccer). On this site, you can find my portfolio, my blog, and some relevant links.
+Hi, I'm Ahmet, a software engineer who likes building cool stuff. Currently working at [Moira Labs](https://www.moiralabs.net/), building [The Lost War](http://thelostwar.net/), available in early access on [Epic Games Store](https://store.epicgames.com/en-US/p/the-lost-war-ea53eb).
 
-I have recently released my first game on Steam, called [Echoes Of Steel](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/). 
+I've released my first solo game a while ago, [Echoes Of Steel](https://ahmetilten.com/portfolio/echoes-of-steel/), available on [Steam](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/).
 
-Currently working at [Moira Labs](https://www.moiralabs.net/), building [The Lost War](http://thelostwar.net/).
+Besides programming, I like video games, fitness, and football (soccer). On this site, you can find my portfolio, my blog, and some relevant links.
+
