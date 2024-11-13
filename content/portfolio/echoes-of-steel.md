@@ -5,9 +5,7 @@ template = "page.html"
 weight = 2 
 +++
 
-[Echoes Of Steel](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/) is a third person shooter with both melee and ranged enemies. Developed and published by me, as a solo developer. 
-
-You can find the game on [Steam](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/) and follow the development on my [YouTube channel](https://www.youtube.com/@iltenahmet).
+[Echoes Of Steel](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/) is a third person shooter with both melee and ranged enemies, with 70%+ positive reviews on [Steam](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/). Developed and published by me, as a solo developer. 
 
 The game includes:
 - Animation-supported movement, shooting & reload mechanics.
