@@ -26,7 +26,7 @@ highlight_code = true
 # Defaults to blue.
 # Append -light for light themes, e.g. blue-light
 # Or append -auto, e.g. blue-auto
-accent_color = "gruvbox"
+accent_color = "blue"
 
 # One of: blue, dark, green, orange, pink, red, light, auto
 # Enabling dark background will also modify primary font color to be darker.
