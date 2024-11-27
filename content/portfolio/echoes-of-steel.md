@@ -8,6 +8,8 @@ weight = 2
 [Echoes Of Steel](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/) is a third person shooter with both melee and ranged enemies, with 70%+ positive reviews on [Steam](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/). Developed and published by me, as a solo developer. 
 
 The game includes:
+- Comprehensive combat system with animation-supported movement, shooting, and reload mechanics, integrating both melee and ranged enemy AI for varied and engaging gameplay across multiple levels.
+- Dynamic inventory management system, enabling seamless weapon swapping, item discarding, and acquisition.
 - Animation-supported movement, shooting & reload mechanics.
 - Dynamic gameplay variation depending on weapon selection.
 - Both melee and shooter enemy AI. 
@@ -18,7 +20,7 @@ The game includes:
 
 <!-- more --> 
 
-I'm using Unreal Engine 5.1. The most of the core logic is in C++, with some parts extended in Blueprints.
+I've used Unreal Engine 5.1. The most of the core logic is in C++, with some parts extended in Blueprints. I've used Perforce for Version Control, and hosted the repository on a DigitalOcean droplet.
 
 Although I've developed this game solo, it was only possible due to the work of many developers and artists who put their work online (often for free), or created resources for me to learn game development. 
 

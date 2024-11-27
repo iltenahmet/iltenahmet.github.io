@@ -7,11 +7,9 @@ weight = 4
 
 Created a browser based mobile card game with Python and the Flask framework. You can access the game [here](https://divedeeper.online/).
 
-
-My responsibilities included: 
-- Implementing user authentication using Flask-login and MongoDB.
-
 <!-- more -->
 
-- Implementing the front end for the sign up and login pages, handled redirection to the main page after login.
-- Using agile methodology to organize as a team, keeping track of the progress for each sprint through  Github's task boards.
+My contributions to this project were: 
+- Implemented a system for accounts, session management, and user authentication using Python, Flask, and MongoDB.
+- Develop the front-end for sign-up and login pages, incorporating a seamless redirection to the main game interface.
+- Organized the team development cycles using Agile methodology, using GitHub task boards to track sprint progress.
