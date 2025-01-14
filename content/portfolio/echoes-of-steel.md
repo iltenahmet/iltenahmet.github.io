@@ -9,7 +9,7 @@ weight = 2
 
 The game includes:
 - Comprehensive combat system with animation-supported movement, shooting, and reload mechanics, integrating both melee and ranged enemy AI for varied and engaging gameplay across multiple levels.
-- Dynamic inventory management system, enabling seamless weapon swapping, item discarding, and acquisition.
+- Dynamic inventory management system, enabling seamless weapon swapping, discarding, and acquisition.
 - Animation-supported movement, shooting & reload mechanics.
 - Dynamic gameplay variation depending on weapon selection.
 - Both melee and shooter enemy AI. 
