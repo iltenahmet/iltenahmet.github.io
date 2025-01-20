@@ -11,7 +11,7 @@ I've released my first solo game a while ago, [Echoes Of Steel](https://ahmetilt
 
 Besides programming, I like:
 - Football (Avid supporter of [Beşiktaş](https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.))
-- Playing video games (Favorite games include Red Dead Redemption 2 and The Last Of Us Series) 
+- Video games (Favorite games include Red Dead Redemption 2 and The Last Of Us Series) 
 - Movies ([Letterboxd](https://letterboxd.com/iltenahmet/))
 - Fitness 
 
