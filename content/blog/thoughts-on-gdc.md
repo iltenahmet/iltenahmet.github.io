@@ -1,6 +1,6 @@
 
 +++
-title = "My time since last year's GDC"
+title = "Thoughts on 2024 Game Developers Conference"
 date = 2024-03-23
 template = "page.html"
 +++

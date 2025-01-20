@@ -5,24 +5,36 @@ template = "page.html"
 weight = 2 
 +++
 
-[Echoes Of Steel](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/) is a third person shooter with both melee and ranged enemies, with 70%+ positive reviews on [Steam](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/). Developed and published by me, as a solo developer. 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+  <iframe
+    src="https://www.youtube.com/embed/eR_vyMWuu60"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
 
-The game includes:
-- Comprehensive combat system with animation-supported movement, shooting, and reload mechanics, integrating both melee and ranged enemy AI for varied and engaging gameplay across multiple levels.
-- Dynamic inventory management system, enabling seamless weapon swapping, discarding, and acquisition.
-- Animation-supported movement, shooting & reload mechanics.
-- Dynamic gameplay variation depending on weapon selection.
-- Both melee and shooter enemy AI. 
-- Inventory management system that enables item swapping, discarding and acquiring different weapons. 
-- Multiple levels. 
-- Nice ancient quotes. 
-- The secret for a good life.
+[Echoes Of Steel](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/) is a high-fidelity third person shooter game, with over 70% positive reviews on [Steam](https://store.steampowered.com/app/2580010/Echoes_Of_Steel/). The player faces off against both melee and ranged AI, battling through challenging levels to progress.
+
+Designed, developed and published by me, as a solo developer.
 
 <!-- more --> 
 
-I've used Unreal Engine 5.1. The most of the core logic is in C++, with some parts extended in Blueprints. I've used Perforce for Version Control, and hosted the repository on a DigitalOcean droplet.
+Taking this game from ideation to publishing, I've learned many valuable lessons from the whole process, and I documented the journey on my [YouTube channel](https://www.youtube.com/@iltenahmet/). 
 
-Although I've developed this game solo, it was only possible due to the work of many developers and artists who put their work online (often for free), or created resources for me to learn game development. 
+One of the most rewarding moments was engineering the enemy AI to deliberately miss some shots — a practical application of my Linear Algebra class knowledge, which I detailed in this [video](https://www.youtube.com/watch?v=VLnRGfe3s20&t=181s).
+
+The game includes:
+- A comprehensive combat system featuring animation-driven movement, melee, shooting, and reload mechanics, all integrated with the AI behavior.
+- A Dynamic inventory system with seamless weapon swapping, discarding, and acquisition.
+- Intelligent AI agents with autonomous decision making and navigation in a 3D environment.
+- Nice ancient quotes. 
+- The secret for a good life.
+
+I've used Unreal Engine 5.1. The core gameplay logic is written in C++, with some parts extended in Blueprints. I've used Perforce for Version Control, and hosted the repository on a DigitalOcean droplet.
+
+The creation of this game was only possible due to the work of many artists who put their work online (often for free), and developers who created resources for me to learn from. 
 
 Here's a list of resources I've used to create this game:
 
