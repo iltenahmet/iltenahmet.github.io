@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title></title>
+    <link href="https://ahmetilten.com/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://ahmetilten.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-05-17T00:00:00+00:00</updated>
+    <id>https://ahmetilten.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>NYU Computer Science Degree Overview</title>
+        <published>2024-05-17T00:00:00+00:00</published>
+        <updated>2024-05-17T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://ahmetilten.com/blog/nyu-cs-degree/" type="text/html"/>
+        <id>https://ahmetilten.com/blog/nyu-cs-degree/</id>
+        
+        <content type="html">&lt;p&gt;I&#x27;ve recently shot a video going over my computer science education at NYU. &lt;&#x2F;p&gt;
+&lt;div style=&quot;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;&quot;&gt;
+  &lt;iframe
+    src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;GW_23y7Hahw?si=0Rn8rHGvCJ1Z8S1n&quot;
+    style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;
+    frameborder=&quot;0&quot;
+    allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;
+    allowfullscreen&gt;
+  &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Thoughts on 2024 Game Developers Conference</title>
+        <published>2024-03-23T00:00:00+00:00</published>
+        <updated>2024-03-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://ahmetilten.com/blog/thoughts-on-gdc/" type="text/html"/>
+        <id>https://ahmetilten.com/blog/thoughts-on-gdc/</id>
+        
+        <summary type="html">&lt;p&gt;Today marks the end of my second attendance to &lt;a href=&quot;https:&#x2F;&#x2F;gdconf.com&#x2F;&quot;&gt;GDC&lt;&#x2F;a&gt;. This year&#x27;s conference was smaller compared to the last year&#x27;s. I could clearly see the impacts of the current economic downturn. The best thing one can do is to not worry about this, keep working on their craft, and be the one who&#x27;s still standing when things get better. &lt;&#x2F;p&gt;
+&lt;p&gt;On the other hand, personally, I felt much better compared to my experience last year. This is because I have gotten much better over the course of the year. Last year, I remember feeling super inadequate, and had this feeling where I wasn&#x27;t sure if I could become a skilled game developer. And those feelings had some merit. At that point, the only thing I had done was super simple &lt;a href=&quot;https:&#x2F;&#x2F;ahmetilten.com&#x2F;portfolio&#x2F;unreal-learning&#x2F;&quot;&gt;projects&lt;&#x2F;a&gt; in Unreal and one kinda interesting small &lt;a href=&quot;https:&#x2F;&#x2F;ahmetilten.com&#x2F;portfolio&#x2F;god-of-war&#x2F;&quot;&gt;project&lt;&#x2F;a&gt; in Unity. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Wow, such empty!</title>
+        <published>2024-02-03T00:00:00+00:00</published>
+        <updated>2024-02-03T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://ahmetilten.com/blog/first-page/" type="text/html"/>
+        <id>https://ahmetilten.com/blog/first-page/</id>
+        
+        <content type="html">&lt;p&gt;Don&#x27;t worry, I&#x27;ll post here more in the future. I&#x27;m almost 20% sure!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
