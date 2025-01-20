@@ -65,7 +65,7 @@ menu_items = [
 	{name = "linkedin", url = "https://www.linkedin.com/in/iltenahmet", newtab = true},
 	{name = "steam", url = "https://store.steampowered.com/search/?developer=Ahmet%20Ilten", newtab = true},
 
-	{name = "resume", url = "$BASE_URL/ahmet-ilten-resume.pdf"},
+	# {name = "resume", url = "$BASE_URL/ahmet-ilten-resume.pdf"},
 ]
 
 # Whether to show links to earlier and later (aka. higher/lower) posts
