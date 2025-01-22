@@ -13,6 +13,8 @@ The most brain-wrecking and fun part of this project was writing out custom matr
 
 <!-- more --> 
 
+test change
+
 This was the final project of the Computer Graphics course at NYU, taught by Ken Perlin Other interesting projects I've done over the course of the semester include: 
 
 - [Shader Art](https://graphics-programming-projects.web.app/hw2/index.html)
