@@ -1,6 +1,6 @@
 +++
 title = "The Lost War"
-description = "July 2024 - Present"
+description = "July 2024 - February 2024"
 weight = 1 
 +++
 
