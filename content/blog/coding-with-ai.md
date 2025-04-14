@@ -8,6 +8,8 @@ Since joining an [AI company](https://theterminalx.com/) recently, I've had the 
 
 When ChatGPT emerged in late 2022, as a junior Computer Science student in college, I was mind-blown by its capabilities. For that semester, I fully embraced the AI hype train, believing anyone not using this tool was falling behind and destined to become a relic of the pre-GPT world. This enthusiasm lasted until the end of the semester when my grades hit their lowest point, I learned very little, and my projects were full of bugs I had no idea how to fix.
 
+<!-- more -->
+
 I painfully realized that when you rely too heavily on AI-generated code, debugging becomes a nightmare. You lose crucial context about your own code and often incorporate snippets with non-obvious issues that become problematic as projects scale.
 
 After that experience, I restricted myself to using AI only for occasional syntax help, fearing deeper usage would lead to the same confusion and dependency. This cautious approach continued until I developed interest in AI agents and began building small projects. Working with applications that leveraged LLMs helped me understand these systems—their capabilities and limitations. During this period, the following [video](https://youtu.be/7xTGNNLPyMI?si=-g7g8SxFWrfO8RIC) by Andrej Karpathy explaining how LLMs work was particularly illuminating.
