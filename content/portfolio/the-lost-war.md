@@ -6,7 +6,7 @@ weight = 1
 
 ![The Lost War](/the-lost-war-cover.png) 
 
-[The Lost War](http://thelostwar.net/) is a real-time multiplayer strategy card game set in ancient Greece. Players engage in intense 1v1 battles, using their favorite heroes from Greek mythology to outwit and defeat their opponents.
+[The Lost War](https://store.epicgames.com/en-US/p/the-lost-war-ea53eb) is a real-time multiplayer strategy card game set in ancient Greece. Players engage in intense 1v1 battles, using their favorite heroes from Greek mythology to outwit and defeat their opponents.
 
 Our beta version is live on the [Epic Game Store](https://store.epicgames.com/en-US/p/the-lost-war-ea53eb).
 
