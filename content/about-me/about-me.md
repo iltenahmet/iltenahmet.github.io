@@ -16,3 +16,4 @@ Besides programming, I like:
 - Fitness 
 - Coffee
 - Thinking
+- My friends
