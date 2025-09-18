@@ -6,9 +6,9 @@ template = "page.html"
 
 Since joining an [AI company](https://theterminalx.com/) recently, I've had the opportunity to reflect on my use of AI when programming.
 
-When ChatGPT emerged in late 2022, as a junior Computer Science student in college, I was mind-blown by its capabilities. For that semester, I fully embraced the AI hype train, believing anyone not using this tool was falling behind and destined to become a relic of the pre-GPT world. This enthusiasm lasted until the end of the semester when my grades hit their lowest point, I learned very little, and my projects were full of bugs I had no idea how to fix.
-
 <!-- more -->
+
+When ChatGPT emerged in late 2022, as a junior Computer Science student in college, I was mind-blown by its capabilities. For that semester, I fully embraced the AI hype train, believing anyone not using this tool was falling behind and destined to become a relic of the pre-GPT world. This enthusiasm lasted until the end of the semester when my grades hit their lowest point, I learned very little, and my projects were full of bugs I had no idea how to fix.
 
 I painfully realized that when you rely too heavily on AI-generated code, debugging becomes a nightmare. You lose crucial context about your own code and often incorporate snippets with non-obvious issues that become problematic as projects scale.
 

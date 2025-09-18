@@ -7,9 +7,9 @@ template = "page.html"
 
 Today marks the end of my second attendance to [GDC](https://gdconf.com/). This year's conference was smaller compared to the last year's. I could clearly see the impacts of the current economic downturn. The best thing one can do is to not worry about this, keep working on their craft, and be the one who's still standing when things get better. 
 
-On the other hand, personally, I felt much better compared to my experience last year. This is because I have gotten much better over the course of the year. Last year, I remember feeling super inadequate, and had this feeling where I wasn't sure if I could become a skilled game developer. And those feelings had some merit. At that point, the only thing I had done was super simple [projects](https://ahmetilten.com/portfolio/unreal-learning/) in Unreal and one kinda interesting small [project](https://ahmetilten.com/portfolio/god-of-war/) in Unity. 
-
 <!-- more -->
+
+On the other hand, personally, I felt much better compared to my experience last year. This is because I have gotten much better over the course of the year. Last year, I remember feeling super inadequate, and had this feeling where I wasn't sure if I could become a skilled game developer. And those feelings had some merit. At that point, the only thing I had done was super simple [projects](https://ahmetilten.com/portfolio/unreal-learning/) in Unreal and one kinda interesting small [project](https://ahmetilten.com/portfolio/god-of-war/) in Unity. 
 
 It was a terrible feeling, and deep down I knew I was far from where I wanted to be. However, I'm grateful for that feeling, which pushed me to do more. After the conference last year, I applied for game dev related internships everywhere, and I couldn't secure one. So I decided to make [my own game](https://ahmetilten.com/portfolio/echoes-of-steel/) and put it on Steam. 
 

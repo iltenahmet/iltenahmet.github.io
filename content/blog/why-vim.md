@@ -6,9 +6,9 @@ template = "page.html"
 
 When fellow developers see me using Vim (or, more specifically, [Neovim](https://neovim.io/)), the most common question I get is, "Why?"
 
-Why use this antiquated text editor, a notorious pain to learn and use, when you could opt for much more sensible IDEs? They come with great default features out of the box, are easy to learn, and are tried and tested by countless developers, think [VSCode](https://code.visualstudio.com/), [JetBrains](https://www.jetbrains.com/?var=2) products, or lately, [Cursor](https://cursor.com/).
-
 <!-- more -->
+
+Why use this antiquated text editor, a notorious pain to learn and use, when you could opt for much more sensible IDEs? They come with great default features out of the box, are easy to learn, and are tried and tested by countless developers, think [VSCode](https://code.visualstudio.com/), [JetBrains](https://www.jetbrains.com/?var=2) products, or lately, [Cursor](https://cursor.com/).
 
 I should preface my answer by saying that there is nothing wrong with these editors. Often, after I explain my choice, the follow-up question is, "So what's wrong with VSCode?" In fact, VSCode is a great choice; it gets the job done, it's fast enough on modern hardware, and it has a rich ecosystem of plugins for almost any need.
 
