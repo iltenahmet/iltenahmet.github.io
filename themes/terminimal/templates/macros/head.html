@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="{{ get_url(path="font-hack-subset.css", trailing_slash=false) | safe }}">
 {% endif -%}
 
+{%- if config.extra.goat_counter %}
+    <script data-goatcounter="https://{{ config.extra.goat_counter }}.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+{% endif -%}
+
 {% endmacro head %}
 
 
