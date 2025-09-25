@@ -26,3 +26,7 @@ Only as a supplement to pain or pleasure, theoretical knowledge *sinks in*.
 My natural inclination is to understand a given situation logically first, and then act. But the real progress comes from acting first, failing (most likely) or succeeding, and then understanding the situation on a logical level, through retrospection.
 
 Then, whatever knowledge I gain will *stick*. This is something I should remind myself constantly.
+
+---
+
+Note: A good friend of mine pointed out that reason and emotion are not opposites, and I agree. However, the distinction is great enough for practical purposes of this writing that I think it's okay to present them as such.
