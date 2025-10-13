@@ -16,7 +16,7 @@ In a previous [post](https://ahmetilten.com/blog/on-progress/), I mentioned that
 
 Emotions precede action. And belief precedes emotions. 
 
-The most straightforward way to get into such an emotional state is the **belief** that one is a winner.
+The most straightforward way to get into such an emotional state is through the **belief** that one is a winner.
 
 The kind of belief that requires no explanation or justification. When something bad happens, the kind that says "Doesn't matter, because I'm a winner.", and when something good happens, the kind that goes "Of course it happened, because I'm a winner.".
 
