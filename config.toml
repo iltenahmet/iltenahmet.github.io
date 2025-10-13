@@ -58,6 +58,7 @@ menu_items = [
 	{name = "youtube", url = "https://www.youtube.com/@iltenahmet", newtab = true},
 	{name = "linkedin", url = "https://www.linkedin.com/in/iltenahmet", newtab = true},
 	{name = "steam", url = "https://store.steampowered.com/search/?developer=Ahmet%20Ilten", newtab = true},
+	{name = "X", url = "https://x.com/iltenahmet", newtab = true},
 
 	# {name = "resume", url = "$BASE_URL/ahmet-ilten-resume.pdf"},
 ]
