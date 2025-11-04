@@ -7,7 +7,7 @@ template = "page.html"
 
 Hi, I'm Ahmet, a software engineer who likes building cool shit. 
 
-Currently working at Project Pluto, building the [Terminal X](https://theterminalx.com/), the finance superintelligence platform.
+Currently working at Project Pluto, building the [Terminal X](https://terminal-x.ai/), the finance superintelligence platform.
 
 Besides programming, I like:
 - Football (Avid supporter of [Beşiktaş](https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.))
