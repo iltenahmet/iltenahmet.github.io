@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Why Vim? | </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://ahmetilten.com/style.css">
+    <link rel="stylesheet" href="https://ahmetilten.com/color/orange.css">
+
+        <link rel="stylesheet" href="https://ahmetilten.com/color/background_dark.css">
+    
+    <link rel="stylesheet" href="https://ahmetilten.com/font-hack.css">
+
+    <script data-goatcounter="https://ahmetilten.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+
+    <meta name="description" content="">
+
+    <meta property="og:description" content="">
+    <meta property="og:title" content="Why Vim? | ">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ahmetilten.com/blog/why-vim/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="Why Vim? | ">
+    <meta property="twitter:domain" content="ahmetilten.com">
+    <meta property="twitter:url" content="https://ahmetilten.com/blog/why-vim/">
+
+    </head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="https://ahmetilten.com" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            Ahmet İlten
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        <nav class="menu">
+            <ul class="menu__inner">
+                <li><a href="https://ahmetilten.com/about-me">about me</a></li>
+            
+                <li><a href="https://ahmetilten.com/portfolio">portfolio</a></li>
+            
+                <li class="active"><a href="https://ahmetilten.com/blog">blog</a></li>
+            
+                <li><a href="https://www.github.com/iltenahmet" target="_blank" rel="noopener noreferrer">github</a></li>
+            
+                <li><a href="https://www.youtube.com/@iltenahmet" target="_blank" rel="noopener noreferrer">youtube</a></li>
+            
+                <li><a href="https://www.linkedin.com/in/iltenahmet" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+            
+                <li><a href="https://store.steampowered.com/search/?developer=Ahmet%20Ilten" target="_blank" rel="noopener noreferrer">steam</a></li>
+            
+                <li><a href="https://x.com/iltenahmet" target="_blank" rel="noopener noreferrer">X</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://ahmetilten.com/blog/why-vim/">Why Vim?</a></h1>
+    <div class="post-meta-inline">
+        
+    <span class="post-date">
+            July 27, 2025
+        </span>
+
+    </div>
+    <div class="post-meta-inline">
+        
+     <span class="post-description"></span>
+
+    </div>
+    
+
+        <div class="post-content">
+            <p>When fellow developers see me using Vim (or, more specifically, <a href="https://neovim.io/">Neovim</a>), the most common question I get is, &quot;Why?&quot;</p>
+<span id="continue-reading"></span>
+<p>Why use this antiquated text editor, a notorious pain to learn and use, when you could opt for much more sensible IDEs? They come with great default features out of the box, are easy to learn, and are tried and tested by countless developers, think <a href="https://code.visualstudio.com/">VSCode</a>, <a href="https://www.jetbrains.com/?var=2">JetBrains</a> products, or lately, <a href="https://cursor.com/">Cursor</a>.</p>
+<p>I should preface my answer by saying that there is nothing wrong with these editors. Often, after I explain my choice, the follow-up question is, &quot;So what's wrong with VSCode?&quot; In fact, VSCode is a great choice; it gets the job done, it's fast enough on modern hardware, and it has a rich ecosystem of plugins for almost any need.</p>
+<p>To choose Vim over VSCode (or other GUI editors) is a matter of personal preference, but it's a very important choice nevertheless. The text editor is the most important piece of software a developer will use in their lifetime. A full-time developer spends a considerable amount of their waking life interacting with this single piece of software. The idea of not caring about it as long as &quot;it gets the job done&quot; is an answer I find puzzling.</p>
+<p>The benefits of Vim come in three parts. The first is the keybindings, which are not exclusive to the Vim editor, as almost all modern text editors support them. The keybindings are developed with the idea that a developer's primary job is not writing text but editing it. The second benefit comes from eliminating the mouse and the GUI. The main advantage here is not just that it makes you faster (although it does), but that it removes the abstractions that a GUI provides, thereby enhancing the developer's knowledge and understanding of any given system. This ties into my third point: Vim lives inside the second most important piece of software in a developer's life, the terminal.</p>
+<p>The beauty of Vim keybindings is that they split development into distinct modes: writing (INSERT mode) and editing (NORMAL and VISUAL modes). In a regular text editor, the keyboard is reserved for typing. However, by limiting writing to a single mode, Vim frees the entire keyboard for the main act of programming: editing. The keys that you use to type become actions (d for delete, hjkl for navigation, w for jumping to the next word, etc.). Since you're not restricted to function keys or modifier combos like Ctrl and Shift, the number of actions you can express becomes infinitely larger. In fact, editing becomes its own language. The biggest benefit here is not speed; it's pleasure. The moment you internalize the keybindings and can execute the edit in your mind almost instantly without thinking or reaching for the mouse, returning to the old way of using the keyboard for a single purpose feels painfully frustrating. It might take a week or so of pain to learn Vim motions, but once you're comfortable with them, there's no going back.</p>
+<p>Before I explain the second benefit, I'd like to correct the common misconception that Vim cannot have the same feature set as VSCode or other commonly used GUI editors. This is 90% false. I have yet to see a VSCode feature for which I couldn't find a plugin for my Neovim configuration. The only area where Vim concedes to full-fledged IDEs like Visual Studio or JetBrains Rider/IntelliJ is debugger support. The Neovim debugger is the one plugin I have yet to set up properly and I often find myself opening another IDE just to use its debugger. Skill issue, potentially ;).</p>
+<p>Though plugins are available for almost every feature VSCode has, setting them up takes significantly more effort for Neovim, and even more so for Vim. As contradictory as it sounds, the extra setup time has benefits. First, it makes you a better programmer, as you gain a deeper grasp of your tools. For students or those new to programming, setting up a Neovim configuration yourself is a much closer experience to actual software development than you'll find in any intro to computer science course. Most of software engineering is about understanding a large piece of software, deciphering unfamiliar APIs, and figuring out how to implement the required change within that ecosystem. This process will teach you more than any number of generic to-do apps, although those are useful for other reasons.</p>
+<p>The third benefit comes from the fact that Vim lives in the terminal. The power of the terminal lies in the minimal abstraction between the program and the programmer. Many options can be expressed with a single flag or a few words. It's much easier to extend a terminal-based application than a GUI one, and for that reason, terminal apps often provide a level of control that most GUI apps cannot. For example, GUI apps for Git are very common, but anytime a complex Git action needs to be performed, users often find themselves back in the terminal. The only caveat is that it takes significantly more time to get familiar with a terminal app than a GUI app. Though, similar to my previous reasoning, this is not always a bad thing, as it increases the developer's understanding of any application they're using.</p>
+<p>So far, I've mostly compared Vim with VSCode and other traditional GUI editors, but what about Cursor? Surely Vim doesn't provide the benefits of an IDE designed for AI. To that end, I believe the best medium for AI is the one in which Vim operates: the terminal. Since both LLMs and the terminal are fundamentally text-based, many terminal applications are already great tools for an LLM to leverage. Recently, I've been switching between <a href="https://www.warp.dev/">Warp</a> and <a href="https://www.anthropic.com/claude-code">Claude Code</a> as my main AI programming aid, and I haven't seen many benefits Cursor offers that I can't get from these terminal-based AI tools, though I admit I have yet to give Cursor a solid try.</p>
+<p>If you're interested, here's are a few resources to get started with Vim:</p>
+<ul>
+<li>
+<p><a href="https://youtu.be/sqm4-B07LsE?feature=shared">No Boilerplate YouTube video on Vim</a>: Best presentation of the argument for Vim motions I've seen. </p>
+</li>
+<li>
+<p><a href="https://github.com/VSCodeVim/Vim">VSCode Vim Extenstion</a>: Switching to Vim/NeoVim without getting familiar with the motions might be too much to handle, I think VS Code extension for Vim is a great place to start, that's how I started as well.</p>
+</li>
+<li>
+<p><a href="https://github.com/nvim-lua/kickstart.nvim">kickstart.nvim</a>: Simple NeoVim configuration that provides most of the functionality that you'd need from an ide, it's a great starting point. My own config is still 80% based on this.</p>
+</li>
+<li>
+<p><a href="https://www.youtube.com/@ThePrimeTimeagen">The Primeagen</a>: Funny ex-Netflix engineer that talks about Vim sometimes, has great takes usually</p>
+</li>
+</ul>
+
+        </div>
+
+        
+        <div class="pagination">
+            <div class="pagination__title">
+                <span class="pagination__title-h">Check out other stuff?</span>
+                <hr />
+            </div>
+            <div class="pagination__buttons">
+                    <span class="button previous">
+                        <a href="https://ahmetilten.com/blog/coding-with-ai/">
+                            <span class="button__icon">←</span>&nbsp;
+                            <span class="button__text">Coding with AI</span>
+                        </a>
+                    </span>
+                
+                
+                    <span class="button next">
+                        <a href="https://ahmetilten.com/blog/on-progress/">
+                            <span class="button__text">On Progress</span>&nbsp;
+                            <span class="button__icon">→</span>
+                        </a>
+                    </span>
+                </div>
+        </div>
+    
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright">
+                        <span>© 
+    2026
+ Ahmet İlten</span>
+                    <span class="copyright-theme">
+                        <span class="copyright-theme-sep">:: </span>
+                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman
+                    </span>
+                </div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>

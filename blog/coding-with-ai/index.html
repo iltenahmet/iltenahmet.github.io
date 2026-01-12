@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coding with AI | </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="robots" content="noodp"/>
+
+    <link rel="stylesheet" href="https://ahmetilten.com/style.css">
+    <link rel="stylesheet" href="https://ahmetilten.com/color/orange.css">
+
+        <link rel="stylesheet" href="https://ahmetilten.com/color/background_dark.css">
+    
+    <link rel="stylesheet" href="https://ahmetilten.com/font-hack.css">
+
+    <script data-goatcounter="https://ahmetilten.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+
+    <meta name="description" content="">
+
+    <meta property="og:description" content="">
+    <meta property="og:title" content="Coding with AI | ">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ahmetilten.com/blog/coding-with-ai/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="Coding with AI | ">
+    <meta property="twitter:domain" content="ahmetilten.com">
+    <meta property="twitter:url" content="https://ahmetilten.com/blog/coding-with-ai/">
+
+    </head>
+
+<body class="">
+<div class="container">
+    
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                    
+                <a href="https://ahmetilten.com" style="text-decoration: none;">
+                    <div class="logo">
+                      
+                            Ahmet İlten
+                        
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        
+        <nav class="menu">
+            <ul class="menu__inner">
+                <li><a href="https://ahmetilten.com/about-me">about me</a></li>
+            
+                <li><a href="https://ahmetilten.com/portfolio">portfolio</a></li>
+            
+                <li class="active"><a href="https://ahmetilten.com/blog">blog</a></li>
+            
+                <li><a href="https://www.github.com/iltenahmet" target="_blank" rel="noopener noreferrer">github</a></li>
+            
+                <li><a href="https://www.youtube.com/@iltenahmet" target="_blank" rel="noopener noreferrer">youtube</a></li>
+            
+                <li><a href="https://www.linkedin.com/in/iltenahmet" target="_blank" rel="noopener noreferrer">linkedin</a></li>
+            
+                <li><a href="https://store.steampowered.com/search/?developer=Ahmet%20Ilten" target="_blank" rel="noopener noreferrer">steam</a></li>
+            
+                <li><a href="https://x.com/iltenahmet" target="_blank" rel="noopener noreferrer">X</a></li>
+            </ul>
+        </nav>
+    
+    
+        
+    </header>
+    
+
+    <div class="content">
+        
+    <div class="post">
+        
+    <h1 class="post-title"><a href="https://ahmetilten.com/blog/coding-with-ai/">Coding with AI</a></h1>
+    <div class="post-meta-inline">
+        
+    <span class="post-date">
+            April 13, 2025
+        </span>
+
+    </div>
+    <div class="post-meta-inline">
+        
+     <span class="post-description"></span>
+
+    </div>
+    
+
+        <div class="post-content">
+            <p>Since joining an <a href="https://theterminalx.com/">AI company</a> recently, I've had the opportunity to reflect on my use of AI when programming.</p>
+<span id="continue-reading"></span>
+<p>When ChatGPT emerged in late 2022, as a junior Computer Science student in college, I was mind-blown by its capabilities. For that semester, I fully embraced the AI hype train, believing anyone not using this tool was falling behind and destined to become a relic of the pre-GPT world. This enthusiasm lasted until the end of the semester when my grades hit their lowest point, I learned very little, and my projects were full of bugs I had no idea how to fix.</p>
+<p>I painfully realized that when you rely too heavily on AI-generated code, debugging becomes a nightmare. You lose crucial context about your own code and often incorporate snippets with non-obvious issues that become problematic as projects scale.</p>
+<p>After that experience, I restricted myself to using AI only for occasional syntax help, fearing deeper usage would lead to the same confusion and dependency. This cautious approach continued until I developed interest in AI agents and began building small projects. Working with applications that leveraged LLMs helped me understand these systems—their capabilities and limitations. During this period, the following <a href="https://youtu.be/7xTGNNLPyMI?si=-g7g8SxFWrfO8RIC">video</a> by Andrej Karpathy explaining how LLMs work was particularly illuminating.</p>
+<p>This coincided with the release of Deepseek R1 and the emergence of more reasoning-focused models. LLMs are essentially powerful statistical token generators, but I always thought they are just that, and fundamentally incapable simulating human-like cause-effect reasoning. I still believe what reasoning models do differs from genuine human reasoning, but they come way closer than what I thought was possible. To me, reasoning models seem to address most common pitfalls of standard AI models.</p>
+<p>Since joining a company building AI agents, where using AI is actively encouraged, I've observed some patterns to get optimal results from LLMs, both in personal use and in our agent development.</p>
+<p>Currently, I've established some personal guidelines that help me leverage AI when programming without falling into previous traps:</p>
+<ol>
+<li>
+<p>Context Is King: Your primary job when working with AI is managing context. With the right context, it produces wonders; with the wrong context, it inevitably hallucinates. This critical filtering and provision of relevant context remains fundamentally human-driven.</p>
+</li>
+<li>
+<p>Keep Completions Short: I rarely request completions longer than 15 lines of code. Longer snippets give AI room to insert unrequested elements and take more time to fully understand. With lengthy AI-generated code, I risk losing important context and failing to grasp what's happening in my own code. This makes debugging extremely difficult and often introduces subtle bugs that emerge later—the worst kind. Instead, I request small snippets and review each before integration.</p>
+</li>
+<li>
+<p>Going to AI for Help Should Be Intentional: I avoid using AI directly in my IDE except for trivial completions. I prefer making LLM queries a deliberate activity where I consider the codebase and carefully select appropriate context—relevant files, functions related to the problem, relevant documentation, etc. This approach reduces irrelevant answers and helps me reason more effectively about AI responses.</p>
+</li>
+</ol>
+<p>Besides these, my current setup includes a browser tab with <a href="https://openrouter.ai/">openrouter.ai</a>'s chatroom interface to easily switch between recent models within a single chat. I typically use Deepseek R1 for non-obvious tasks—waiting up to a minute for complex queries is acceptable. For boilerplate or simple tasks, I use Claude 3.7 with &quot;thinking&quot; mode set to self-moderated for faster responses.</p>
+<p>I almost always enable web search functionality to use AI as a search tool, which I found often yields better results than directly searching on a search engine.</p>
+<p>These guidelines are personal, and reflects my current thinking, though I'm still learning and the field is rapidly evolving.</p>
+
+        </div>
+
+        
+        <div class="pagination">
+            <div class="pagination__title">
+                <span class="pagination__title-h">Check out other stuff?</span>
+                <hr />
+            </div>
+            <div class="pagination__buttons">
+                    <span class="button previous">
+                        <a href="https://ahmetilten.com/blog/nyu-cs-degree/">
+                            <span class="button__icon">←</span>&nbsp;
+                            <span class="button__text">NYU Computer Science Degree Overview</span>
+                        </a>
+                    </span>
+                
+                
+                    <span class="button next">
+                        <a href="https://ahmetilten.com/blog/why-vim/">
+                            <span class="button__text">Why Vim?</span>&nbsp;
+                            <span class="button__icon">→</span>
+                        </a>
+                    </span>
+                </div>
+        </div>
+    
+    </div>
+
+    </div>
+
+    
+    <footer class="footer">
+        <div class="footer__inner">
+                <div class="copyright">
+                        <span>© 
+    2026
+ Ahmet İlten</span>
+                    <span class="copyright-theme">
+                        <span class="copyright-theme-sep">:: </span>
+                        Theme: <a href="https://github.com/pawroman/zola-theme-terminimal/">Terminimal</a> by pawroman
+                    </span>
+                </div>
+            </div>
+    </footer>
+    
+
+</div>
+</body>
+
+</html>
