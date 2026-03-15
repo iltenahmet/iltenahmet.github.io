@@ -1,7 +1,7 @@
 +++
 title = "God Of War Axe Mechanics"
 description = "January 2023 - February 2023"
-weight = 5 
+weight = 6 
 +++
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -31,4 +31,3 @@ If the axe hits an enemy on the way back, it will deal damage.
 - Axe: [link](https://skfb.ly/6yFnW)
 - Animations and the enemy: [link](https://www.mixamo.com/)
 - Environment: [link](https://assetstore.unity.com/packages/3d/environments/nature-starter-kit-2-52977)
-

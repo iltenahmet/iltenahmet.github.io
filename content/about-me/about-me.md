@@ -3,9 +3,7 @@ title = "About Me"
 template = "page.html"
 +++
 
-![Profile](/profile.JPG)
-
-Hi, I'm Ahmet, a software engineer at Project Pluto, building the [Terminal X](https://terminal-x.ai/), an AI platform helping top investment firms make smarter decisions.
+Hi, I'm Ahmet, an engineer at [The Sentience Company](https://www.sentience.company/), building deeply personal AI that thinks like you, retrieves what matters, and acts on your behalf.
 
 While I specialize in backend engineering, I also do infrastructure, devops, frontend, data engineering, AI systems, and everything in between. 
 
@@ -19,3 +17,4 @@ Besides programming, I like:
 - Coffee
 - Thinking
 - My friends
+- Paul Graham essays

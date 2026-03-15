@@ -2,7 +2,7 @@
 title = "Skeleton Smash"
 description = "September 2023 - December 2023"
 template = "page.html"
-weight = 3 
+weight = 4 
 +++
 
 ![Skeleton Smash](/skeleton-smash.png)

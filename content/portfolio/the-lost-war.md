@@ -1,7 +1,7 @@
 +++
 title = "The Lost War"
-description = "July 2024 - February 2024"
-weight = 1 
+description = "July 2024 - February 2025"
+weight = 2 
 +++
 
 ![The Lost War](/the-lost-war-cover.png) 
@@ -20,4 +20,4 @@ As a founding engineer, I wore many hats and touched almost all aspects of devel
 - Creating the entire UI infrastructure in Unity, including setting up an asynchronous animation infrastructure which enabled us to easily make custom animations for different parts of the game from the changing of the turns to the effects on specific cards.
 - Creating a comprehensive command line interface and a logging infrastructure in C# .NET for our backend. This enabled us to simulate the entire game on the command line, without ever needing to boot up Unity, or wait for backend changes to be implemented on the client side, effectively enabling end-to-end backend testing 6 weeks ahead of schedule.
 - Engineering secure networking architecture between our AWS EC2 Linux server and the Unity game engine client, enabling real-time gameplay and synchronization.
-- Conducting and leading weekly beta testing sessions, and leading the implementation the new UX / game design decisions based on the feedback gathered. For our tutorial, this iterative process resulted in a 70% increase in the amount of players understanding the game mechanics after only one match. 
+- Conducting and leading weekly beta testing sessions, and leading the implementation the new UX / game design decisions based on the feedback gathered. For our tutorial, this iterative process resulted in a 70% increase in the amount of players understanding the game mechanics after only one match.

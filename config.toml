@@ -12,8 +12,8 @@ compile_sass = true
 #]
 
 # Code highlighting
-[markdown]
-highlight_code = true
+[markdown.highlighting]
+theme = "gruvbox-dark-medium"
 
 [extra]
 # One of: blue, green, orange, pink, red.

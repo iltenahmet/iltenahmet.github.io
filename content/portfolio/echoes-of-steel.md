@@ -2,7 +2,7 @@
 title = "Echoes Of Steel"
 description = "May 2023 - January 2024" 
 template = "page.html"
-weight = 2 
+weight = 3 
 +++
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
