@@ -4,9 +4,12 @@ date = 2025-04-13
 template = "page.html"
 +++
 
-Since joining an [AI company](https://theterminalx.com/) recently, I've had the opportunity to reflect on my use of AI when programming.
+
+Since joining an [AI company](https://terminal-x.ai/) recently, I've had the opportunity to reflect on my use of AI when programming.
 
 <!-- more -->
+
+**Update from 2026:** This was written early 2025, pretty much none of the below applies to the way I use AI for coding now. With just how much AI coding agents have improved over the past year, it almost feels like software engineering is a different profession now.
 
 When ChatGPT emerged in late 2022, as a junior Computer Science student in college, I was mind-blown by its capabilities. For that semester, I fully embraced the AI hype train, believing anyone not using this tool was falling behind and destined to become a relic of the pre-GPT world. This enthusiasm lasted until the end of the semester when my grades hit their lowest point, I learned very little, and my projects were full of bugs I had no idea how to fix.
 
