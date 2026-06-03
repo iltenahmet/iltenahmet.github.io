@@ -3,7 +3,7 @@ title = "About Me"
 template = "page.html"
 +++
 
-Hi, I'm Ahmet, an engineer at [The Sentience Company](https://www.sentience.company/), building deeply personal AI that thinks like you, retrieves what matters, and acts on your behalf.
+Hi, I'm Ahmet, founding engineer at [The Sentience Company](https://www.sentience.company/), enabling people to scale their unique taste, judgement, expertise and knowledge via their digital twins. 
 
 While I specialize in backend engineering, I also do infrastructure, devops, frontend, data engineering, AI systems, and everything in between. 
 
