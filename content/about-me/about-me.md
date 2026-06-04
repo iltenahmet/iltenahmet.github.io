@@ -3,9 +3,9 @@ title = "About Me"
 template = "page.html"
 +++
 
-Hi, I'm Ahmet, founding engineer at [The Sentience Company](https://www.sentience.company/), enabling people to scale their unique taste, judgement, expertise and knowledge via their digital twins. 
+Hi, I'm Ahmet, founding engineer at [The Sentience Company](https://www.sentience.company/), building digital twins that enable people to scale their unique taste, judgement, expertise and knowledge. 
 
-While I specialize in backend engineering, I also do infrastructure, devops, frontend, data engineering, AI systems, and everything in between. 
+While I specialize in backend engineering, I also do infrastructure, devops, frontend, data engineering, AI systems, and everything in between.
 
 Essentially doing whatever necessary to solve problems (technical or not), even the ones that might not be obvious, until they're solved.
 
